@@ -169,7 +169,7 @@ const Layout = ({children}) =>
           <div className={Styles.title}>Join our growing community</div>
           <div className={Styles.label}>Sign up for news and updates about AcceleratorApp</div>
           <form className={Styles.form}>
-            <input className={Styles.input} type="email"  placeholder="Your email" required/>
+            <input className={Styles.input} type="email" placeholder="Your email" required/>
             <svg className={Styles.arrow}><use href="#arrow"/></svg>
           </form>
           <div className={Styles.links}>
