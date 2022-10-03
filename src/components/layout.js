@@ -76,7 +76,7 @@ const Links = () =>
             {
             if(column.id === 5)
               {
-              return <a key={row.id} href="#"><img className={Styles.social} src={row.icon} alt=""/></a>
+              return <a key={row.id} className={Styles.social} href="#"><img width="100%" src={row.icon} alt=""/></a>
               }
             if(row.id === 32)
               {
@@ -179,9 +179,7 @@ const Layout = ({children}) =>
             <div>
               <BarLinks/>
             </div>
-            <div>
-              Copyright © 2022 AcceleratorApp All Rights Reserved &ensp; | &ensp; <img className={Styles.language} src="/svgs/language.svg"/> &ensp; English
-            </div>
+            <div>© 2022 AcceleratorApp All Rights Reserved &ensp; | &ensp; <img className={Styles.language} src="/svgs/language.svg"/>English</div>
           </div>
           <svg width="0" height="0">
             <symbol id="arrow" viewBox="0 0 32 32">
