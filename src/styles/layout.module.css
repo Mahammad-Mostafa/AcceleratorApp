@@ -48,7 +48,7 @@
   line-height: 20px;
   text-decoration: none;
   border-radius: 5px;
-  margin-inline-start: 30px;
+  margin-inline-start: 25px;
 }
 .menu:hover , .sign:hover , .request:hover , .social:hover
 {
@@ -187,6 +187,7 @@
   vertical-align: middle;
   width: 20px;
   height: 20px;
+  margin-inline-end: 5px;
 }
 @media(max-width:992px)
 {
@@ -197,9 +198,10 @@
   .menu { border-radius: 0; border-top: solid 1px rgba(255,255,255,.1); }
   .menu , .sign , .request { display: block; width: 100%; margin: 0; box-sizing: border-box; }
   .sign { margin: 10px 0; }
-  .links { grid-template-columns: repeat(2, 40%); justify-content: space-between; }
+  .links { gap: 40px 0; grid-template-columns: repeat(2, 45%); justify-content: space-between; }
   .column:last-of-type > .subtitle { display: none; }
-  .column:last-of-type { width: 100%; max-width: 500px; flex-direction: row; grid-column: span 2; margin: auto; }
+  .column:last-of-type { width: 100%; max-width: 300px; flex-direction: row; grid-column: span 2; margin: auto; }
   .social { width: 50px; height: 50px; }
   .bar { flex-direction: column; text-align: center; }
+  .language { width: 16px; height: 16px; }
 }
