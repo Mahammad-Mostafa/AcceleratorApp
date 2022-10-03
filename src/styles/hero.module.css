@@ -1,0 +1,47 @@
+.body
+{
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  padding: 150px 0 50px;
+  background-image: url(../images/cover.png) , linear-gradient(110deg , #206ecf 0.72% , #71b0ff 100%);
+  background-position: top right , center;
+  background-size: 60% auto , contain;
+  background-repeat: no-repeat;
+}
+.cover
+{
+  position: absolute;
+  bottom: -20%;
+  inset-inline: -10%;
+  height: 50%;
+  transform: rotateZ(-8deg);
+  background-color: #fff;
+  border-top: solid 10px #f1f8f9;
+}
+.subtitle
+{
+  color: #f3f5f7;
+  font:26px/42px text;
+}
+.title
+{
+  color: #fff;
+  font:72px/64px title;
+  margin: 10px 0 15px;
+}
+.text
+{
+  color: #e7eaee;
+  font:20px/34px text;
+}
+.image
+{
+  width: 100%;
+  max-width: 1000px;
+}
+@media(max-width:768px)
+{
+  .cover { bottom: -35%; }
+  .title { font-size:40px; }
+}

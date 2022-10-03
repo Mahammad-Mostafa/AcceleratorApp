@@ -1,0 +1,25 @@
+@font-face
+{
+  font-family: title;
+  src: url(../fonts/bold.ttf);
+}
+@font-face
+{
+  font-family: text;
+  src: url(../fonts/light.ttf);
+}
+body
+{
+  padding: 0;
+  margin: 0;
+  font: 12px text;
+  background-color: #fff;
+}
+.wrapper
+{
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  margin: auto;
+}
